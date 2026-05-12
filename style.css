@@ -49,15 +49,16 @@ body {
 
 h1 {
   margin: 0;
-  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-size: 3em;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: steelblue;
+  font-weight: bold;
+  color: #2B7DD7;
 }
 
 .tagline {
-  margin: 6px 0 0;
   font-size: 1rem;
+  margin: 0px;
   color: #2c3e4f;
 }
 
@@ -66,7 +67,7 @@ h1 {
   align-items: center;
   justify-content: center;
   min-width: 120px;
-  padding: 6px;
+  padding: 0px;
 }
 
 .logo {
